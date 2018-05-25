@@ -15,3 +15,12 @@ def generator():
     name = letter1 + letter2 + letter3 + letter4 + letter5
     
     return(name)
+
+print(generator())
+
+# Ask user for input
+letter_input_1 = input('Choose a letter..."v" for vowels, "c" for consonants, "l" for any other letter OR enter a specific letter: ')
+letter_input_2 = input('Choose a letter..."v" for vowels, "c" for consonants, "l" for any other letter OR enter a specific letter: ')
+letter_input_3 = input('Choose a letter..."v" for vowels, "c" for consonants, "l" for any other letter OR enter a specific letter: ')
+letter_input_4 = input('Choose a letter..."v" for vowels, "c" for consonants, "l" for any other letter OR enter a specific letter: ')
+letter_input_5 = input('Choose a letter..."v" for vowels, "c" for consonants, "l" for any other letter OR enter a specific letter: ')
